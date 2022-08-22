@@ -31,6 +31,132 @@
           "parent": 0
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Research",
+      "slug": "research",
+      "items": [
+        {
+          "id": 1,
+          "name": "Research",
+          "url": "/research",
+          "parent": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Shop",
+      "slug": "shop",
+      "items": [
+        {
+          "id": 1,
+          "name": "Shop",
+          "url": "/shop",
+          "parent": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "slug": "technology",
+      "items": [
+        {
+          "id": 1,
+          "name": "Technology",
+          "url": "/technology",
+          "parent": 0
+        },
+        {
+          "id": 2,
+          "name": "4Sight Solutions",
+          "url": "/4sight-solutions",
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "name": "Furrow Focus",
+          "url": "/furrow-focus",
+          "parent": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Parts & Services",
+      "slug": "parts-services",
+      "items": [
+        {
+          "id": 1,
+          "name": "Parts & Services",
+          "url": "/parts-services",
+          "parent": 0
+        },
+        {
+          "id": 2,
+          "name": "Parts",
+          "url": "/parts",
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "name": "Service",
+          "url": "/service",
+          "parent": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Company",
+      "slug": "company",
+      "items": [
+        {
+          "id": 1,
+          "name": "Brands",
+          "url": "/brands",
+          "parent": 0
+        },
+        {
+          "id": 2,
+          "name": "Careers",
+          "url": "/careers",
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "name": "Company",
+          "url": "/company",
+          "parent": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Footer Bottom",
+      "slug": "footer-bottom",
+      "items": [
+        {
+          "id": 1,
+          "name": "Privacy Policy",
+          "url": "/privacy-policy",
+          "parent": 0
+        },
+        {
+          "id": 2,
+          "name": "Cookie Policy",
+          "url": "/cookie-policy",
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "name": "Terms & Conditions",
+          "url": "/terms-conditions",
+          "parent": 0
+        }
+      ]
     }
   ],
   "general": {
@@ -45,6 +171,230 @@
     "footer_logo_url": "https://www.example.com/images/logo.png",
     "corporate_address": "924 11th Street Greeley, CO 80631",
     "direct_email": "info@4riversequipment.com",
-    "copyright_text": "© Copyright 2022 All Rights Reserved, 4Rivers Equipment"
-  }
+    "copyright_text": "© Copyright 2022 All Rights Reserved, 4Rivers Equipment",
+    "social_icons": [
+      {
+        "title": "Facebook",
+        "icon": "https://www.example.com/images/icon-facebook.png",
+        "url": "https://www.facebook.com/4RiversEquipment/"
+      },
+      {
+        "title": "Twitter",
+        "icon": "https://www.example.com/images/icon-twitter.png",
+        "url": "https://www.twitter.com/4RiversEquipment/"
+      },
+      {
+        "title": "Instagram",
+        "icon": "https://www.example.com/images/icon-instagram.png",
+        "url": "https://www.instagram.com/4RiversEquipment/"
+      },
+      {
+        "title": "Youtube",
+        "icon": "https://www.example.com/images/icon-youtube.png",
+        "url": "https://www.youtube.com/4RiversEquipment/"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "name": "Home",
+      "slug": "home",
+      "sections": [
+        {
+          "name": "Hero",
+          "slug": "hero",
+          "options": {
+            "section_image_url": "https://www.example.com/images/hero.jpg",
+            "section_title": "YOUR JOHN DEERE DEALER",
+            "section_subtitle": "NEW & USED EQUIPMENT. PARTS. SERVICE. TECHNOLOGY."
+          }
+        },
+        {
+          "name": "Local Dealership",
+          "slug": "local-dealership",
+          "options": {
+            "section_title": "Your Local John Deere Dealership",
+            "section_content": "<p>The 4Rivers Equipment footprint has grown over the past 90 years, our markets have diversified, and now we are seeing an evolution. Our small towns still exist, and family farms are sophisticated enough to survive.</p><p>At the same time, our construction communities are developing new homes, shopping centers, and new energy infrastructures. Our customer base is growing with this evolution, and our mission is to continue to support them with the superior John Deere solutions we have always carried. All to serve people and our communities in Colorado, New Mexico, Wyoming, and Texas.</p>",
+            "dealership_stats": [
+              {
+                "stat_title": "Since 1926",
+                "stat_content": "4Rivers has roots in the John Deere business dating back to 1926 in Holly, Colorado."
+              },
+              {
+                "stat_title": "From Lawns to Roads",
+                "stat_content": "4Rivers provides equipment from John Deere riding lawn mowers to the newest in the family, Wirtgen Group Road Building Equipment."
+              },
+              {
+                "stat_title": "Growing Communities",
+                "stat_content": "Our focus is to provide our communities with the right support for growth. We are commited to our local communities."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Our Process",
+          "slug": "our-process",
+          "options": {
+            "section_title": "Buy Online with 4Rivers equipment",
+            "section_subtitle": "OUR PROCESS",
+            "steps": [
+              {
+                "step_title": "HAGGLE FREE",
+                "step_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "image_url": "https://www.example.com/images/step-image.png",
+                "video_url": "https://www.youtube.com/watch?v=O_MFceTfCbI"
+              },
+              {
+                "step_title": "FRONT RANGE READY",
+                "step_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "image_url": "https://www.example.com/images/step-image.png",
+                "video_url": "https://www.youtube.com/watch?v=O_MFceTfCbI"
+              },
+              {
+                "step_title": "30 DAYS WORRY-FREE",
+                "step_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "image_url": "https://www.example.com/images/step-image.png",
+                "video_url": "https://www.youtube.com/watch?v=O_MFceTfCbI"
+              },
+              {
+                "step_title": "10 YEAR WARRANTY",
+                "step_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "image_url": "https://www.example.com/images/step-image.png",
+                "video_url": "https://www.youtube.com/watch?v=O_MFceTfCbI"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Research",
+          "slug": "research",
+          "options": {
+            "section_image_url": "https://www.example.com/images/research.jpg",
+            "section_title": "Find the right machine for the job",
+            "section_subtitle": "Research",
+            "section_content": "<p>We have more to offer than what is on our lot. Our research pages will help you look for the right machine and implement for the job.</p>"
+          }
+        },
+        {
+          "name": "Supporting Services",
+          "slug": "supporting-services",
+          "options": {
+            "section_title": "Supporting you all the way",
+            "section_subtitle": "Supporting Services",
+            "services": [
+              {
+                "icon": "https://www.example.com/images/service-icon.png",
+                "title": "EQUIPMENT PARTS",
+                "description": "Moments mean dollars, and getting the right part when you are down is crucial to your success. 4Rivers Equipment’s parts experts can help you get up and running again in no time. Our specialty encompasses a wide range of John Deere products, from heavy equipment parts to farm machinery parts and beyond.",
+                "more_link": "/parts"
+              },
+              {
+                "icon": "https://www.example.com/images/service-icon.png",
+                "title": "EQUIPMENT Service",
+                "description": "The expert service professionals at 4Rivers understand that you need to keep your machinery running, whether it’s combines and tractors on the farm, skid steers and dozers on the job site, or lawnmowers and utility vehicles at home. We are here to keep your John Deere equipment running and ensure you can finish the job.",
+                "more_link": "/services"
+              },
+              {
+                "icon": "https://www.example.com/images/service-icon.png",
+                "title": "EQUIPMENT Technology",
+                "description": "Technology support from 4Rivers Equipment offers a wide selection of solutions. From integrated construction equipment technology to precision farm technology, we have the tools that will give you the power to get the job done with less. Check out our Technology solutions today.",
+                "more_link": "/technology"
+              }
+            ]
+          }
+        },
+        {
+          "name": "About Us",
+          "slug": "about-us",
+          "options": {
+            "section_image_url": "https://www.example.com/images/research.jpg",
+            "section_title": "It starts with your vision.",
+            "section_subtitle": "About Us",
+            "section_content": "<p>The expert service professionals at 4Rivers understand that you need to keep your machinery running, whether it’s combines and tractors on the farm, skid steers and dozers on the job site, or lawnmowers and utility vehicles at home. We are here to keep your John Deere equipment running and ensure you can finish the job.</p>"
+          }
+        },
+        {
+          "name": "Our Customers",
+          "slug": "our-customers",
+          "options": {
+            "section_title": "Our Customers",
+            "testimonials": [
+              {
+                "name": "John Doe 1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, neque in congue mattis."
+              },
+              {
+                "name": "John Doe 2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, neque in congue mattis."
+              },
+              {
+                "name": "John Doe 3",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, neque in congue mattis."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Integrity",
+          "slug": "integrity",
+          "options": {
+            "section_image_url": "https://www.example.com/images/research.jpg",
+            "section_title": "A PLACE OF <span>Integrity</span>",
+            "section_content": "<p>We are dedicated to being “Your Working Partner.” That means having integrity in every decision we make. It means respecting others and being innovative thinkers. Finally, it means being committed to the solution. Sound like you? Please take a look at what it takes to join the team.</p>"
+          }
+        },
+        {
+          "name": "Careers",
+          "slug": "careers",
+          "options": {
+            "section_image_url": "https://www.example.com/images/research.jpg",
+            "section_title": "Start a John Deere Career with 4Rivers Equipment",
+            "section_content": "<p>Are you interested in a job as a diesel mechanic? Like to work with your hands? Our Technician Sponsorship program puts you on the fast track to a John Deere Career.</p>",
+            "video_url": "https://www.youtube.com/watch?v=O_MFceTfCbI"
+          }
+        },
+        {
+          "name": "Blog",
+          "slug": "blog",
+          "options": {
+            "section_title": "LATEST FROM 4RIVERS",
+            "featured_post": {
+              "title": "Colorado Eagles Hockey | Agriculture Night",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus, nisi ultricies malesuada ultricies,",
+              "link": "/colorado-eagles-hockey",
+              "image_url": "https://www.example.com/images/post-image.png",
+              "category": "General",
+              "date": "MAR 11th, 2022"
+            },
+            "posts": [
+              {
+                "title": "Article Title Goes Here",
+                "link": "/article-title-goes-here",
+                "image_url": "https://www.example.com/images/post-image.png",
+                "category": "General"
+              },
+              {
+                "title": "Article Title Goes Here",
+                "link": "/article-title-goes-here",
+                "image_url": "https://www.example.com/images/post-image.png",
+                "category": "General"
+              },
+              {
+                "title": "Article Title Goes Here",
+                "link": "/article-title-goes-here",
+                "image_url": "https://www.example.com/images/post-image.png",
+                "category": "General"
+              },
+              {
+                "title": "Article Title Goes Here",
+                "link": "/article-title-goes-here",
+                "image_url": "https://www.example.com/images/post-image.png",
+                "category": "General"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
