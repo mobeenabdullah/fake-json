@@ -1,0 +1,50 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "Main Menu",
+      "slug": "main-menu",
+      "items": [
+        {
+          "id": 1,
+          "name": "Home",
+          "url": "/",
+          "parent": 1,
+          "child_items": [
+            {
+              "id": 1,
+              "name": "Child Item 1",
+              "url": "/child-item-1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "About",
+          "url": "/about",
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "name": "Contact",
+          "url": "/contact",
+          "parent": 0
+        }
+      ]
+    }
+  ],
+  "general": {
+    "site_title": "John Deere Dealer: 4Rivers Equipment",
+    "site_description": "4Rivers Equipment is your local John Deere dealer. Supplying you with friendly service, John Deere tractors, mowers, and more since 1926.",
+    "header_logo_url": "https://www.example.com/images/logo.png",
+    "top_bar": {
+      "content": "Your Working Partner | Equipment in stock and ready to work",
+      "button_text": "view all",
+      "button_url": "/contact"
+    },
+    "footer_logo_url": "https://www.example.com/images/logo.png",
+    "corporate_address": "924 11th Street Greeley, CO 80631",
+    "direct_email": "info@4riversequipment.com",
+    "copyright_text": "© Copyright 2022 All Rights Reserved, 4Rivers Equipment"
+  }
+}
